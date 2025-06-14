@@ -44,6 +44,8 @@ Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma \cdot \mathbb{E}_{a'}[Q(s'
 | Exploration rate (ε) | 0.001  |
 | Episodes trained | 20,000    |
 
+![Expected SARSA Reward Curve](img.png)
+
 ---
 
 ## 🛠 How to Run
