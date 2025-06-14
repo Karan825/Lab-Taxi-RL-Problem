@@ -21,9 +21,7 @@ Expected SARSA is an on-policy Temporal Difference (TD) control algorithm. It ca
 
 **Key Update Formula:**
 
-\[
-Q(s, a) \leftarrow Q(s, a) + \alpha \left[ r + \gamma \cdot \mathbb{E}_{a'}[Q(s', a')] - Q(s, a) \right]
-\]
+Q(s, a) <- Q(s, a) + α [ r + γ * E[Q(s', a')] - Q(s, a) ]
 
 ---
 
